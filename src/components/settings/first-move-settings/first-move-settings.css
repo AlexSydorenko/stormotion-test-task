@@ -1,0 +1,46 @@
+.first-move-settings-title {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-bottom: 5%;
+}
+
+.first-move-choice-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
+
+.first-move-choice {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--grey);
+    font-size: 1.25em;
+    font-weight: 500;
+
+    padding: 1em 1.5em;
+    background-color: var(--app-bg);
+    border-radius: 12px;
+    border: 2px solid var(--app-bg);
+
+    transition: all .3s ease;
+}
+
+.first-move-choice:hover {
+    border: 2px solid var(--main-orange);
+}
+
+.first-move-choice-active {
+    background-color: var(--main-orange);
+    color: var(--app-bg);
+    font-weight: 700;
+}
+
+.first-move-choice-icon {
+    height: 3em;
+    width: auto;
+}

@@ -1,0 +1,73 @@
+.game-board-wrapper {
+    width: 100%;
+    height: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.matches-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.match-icon {
+    color: var(--main-orange);
+    width: 3em;
+    height: auto;
+}
+
+
+
+.matches-to-take-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    opacity: 0.4;
+}
+
+.matches-to-take-form-active {
+    opacity: 1;
+}
+
+.matches-to-take-info {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: var(--grey);
+}
+
+.matches-to-take-counter {
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.matches-to-take-counter .counter-arrow {
+    cursor: pointer;
+    color: var(--main-orange);
+    width: 2em;
+    height: auto;
+}
+
+.matches-to-take-count {
+    font-size: 3.75em;
+    font-weight: 700;
+    width: 1em;
+}
+
+.matches-to-take-submit-btn {
+    font-size: 1.5em;
+    font-weight: 700;
+    padding: 0.75em 3em;
+    background-color: var(--main-orange);
+    color: var(--app-bg);
+    border-radius: 12px;
+}

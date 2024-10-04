@@ -1,0 +1,55 @@
+.users-progress-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.user-progress {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    color: var(--grey);
+}
+
+.user-progress-avatar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.user-progress-avatar span {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.user-icon {
+    height: 5em;
+    width: auto;
+}
+
+.user-progress-matches {
+    display: flex;
+    align-items: flex-end;
+    gap: 0.5em;
+}
+
+.user-progress-matches-count {
+    font-size: 3.75em;
+    font-weight: 700;
+    line-height: 0.6em;
+}
+
+.user-progress-match-icon {
+    width: 1.5em;
+    height: auto;
+}
+
+.user-progress-active {
+    color: var(--main-black);
+}
+
+.user-progress-active .user-progress-match-icon {
+    color: var(--main-orange);
+}
